@@ -56,9 +56,6 @@ def sign(private_key: str, safe_tx_hash: HexBytes) -> bytes:
 def get_private_key(keystore: str) -> str:
     with open(keystore) as f:
         encrypted = f.readlines()
-    print(encrypted)
-    print(type(encrypted[0]))
-    print(json.loads(encrypted[0]))
 
     password = getpass("Enter password:")
 
