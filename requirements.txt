@@ -1,0 +1,16 @@
+bitarray==1.2.2
+cytoolz==0.11.2
+eth-abi==3.0.0
+eth-account==0.6.1
+eth-hash==0.3.2
+eth-keyfile==0.6.0
+eth-keys==0.4.0
+eth-rlp==0.3.0
+eth-typing==3.0.0
+eth-utils==2.0.0
+hexbytes==0.2.2
+parsimonious==0.8.1
+pycryptodome==3.14.1
+rlp==3.0.0
+six==1.16.0
+toolz==0.11.2
